@@ -45,29 +45,47 @@ h3{
 }
 .join{
     background-color: black;
-    transform: skewX(-30deg);
     border: 1px solid black;
 }
 .artist{
     border-left: 2px solid black;
     border-right: 2px solid black;
-    transform: skewX(-30deg) translateX(-15.8%);
 }
 .join h4{
     color:white;
-    transform: skewX(30deg);
 }
 .artist h4{
     display: flex;
     justify-content: center;
     text-align: center;
-    transform: skewX(30deg);
 }
 .logo, .join, .my-page, .front-page, .artist, .rights{
-    padding:0 5% 5% 5%;
+    padding:0 5% 0% 5%;
     width:calc(100%/3);
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+}
+.bid{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    font-size: 16pt;
+    transition: 0.3s ease-in-out;
+    background-color: black;
+    color:white;
+}
+button:hover{
+    font-weight: bold;
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    box-shadow: 0.5px 1px black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
