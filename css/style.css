@@ -1,6 +1,9 @@
 *{
     font-family: 'Avenir';
 }
+body{
+    margin:auto;
+}
 .row{
     display: flex;
     flex-direction: row;
@@ -29,4 +32,42 @@ h3{
     margin-bottom: 5%;
     margin-left:5%;
     margin-top: 5%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+.join{
+    background-color: black;
+    transform: skewX(-30deg);
+    border: 1px solid black;
+}
+.artist{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    transform: skewX(-30deg) translateX(-15.8%);
+}
+.join h4{
+    color:white;
+    transform: skewX(30deg);
+}
+.artist h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: skewX(30deg);
+}
+.logo, .join, .my-page, .front-page, .artist, .rights{
+    padding:0 5% 5% 5%;
+    width:calc(100%/3);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
