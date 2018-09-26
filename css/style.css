@@ -1,0 +1,32 @@
+*{
+    font-family: 'Avenir';
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100%/4);
+    text-align: center;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100%/4);
+    text-align: center;
+}
+.bud{
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100%/4);
+    text-align: center;
+}
+h3{
+    margin-bottom: 5%;
+    margin-left:5%;
+    margin-top: 5%;
+}
