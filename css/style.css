@@ -42,6 +42,7 @@ h3{
     flex-direction: row;
     justify-content: space-evenly;
     border-bottom: 2px solid black;
+    height: 130px;
 }
 .join{
     background-image: linear-gradient(black, #B6B8BA);
@@ -122,4 +123,51 @@ font-weight: 500;
 .login{
     margin-top:5%;
     margin-bottom: 5%;
+}
+form{
+    margin-bottom: 16px;
+}
+.logo-img{
+    width:150px;
+    height:75px;
+}
+.nav-row h4{
+    font-size: 1.4rem;
+}
+main h4{
+    font-size: 1.3rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1.1rem;
+}
+b{
+    font-size:1.05rem;
+}
+.name-desc{
+     font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom:-1%;
+}
+.name{
+    font-size: 1.1rem;
+}
+.add-artist{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top:5%;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+h6{
+    font-size: 1.2rem;
+}
+.admin-artist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
